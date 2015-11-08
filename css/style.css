@@ -38,7 +38,8 @@ body {
 
 
 #restofshit{
-    position: fixed;
+    position: relative;
+    top:50px;
 }
 .button-success,
 .button-error,
