@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 
-body {
-    background-image: url("../images/beach.jpg");
+html {
+    background: url("../images/beach.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    line-height: 1.7em;
-    color: #7f8c8d;
-    font-size: 13px;
 }
 
 div {
@@ -19,22 +20,22 @@ div {
     width:30em;
     height:18em;
     margin-top: -9em; /*set to a negative number 1/2 of your height*/
-    margin-left: -15em; /*set to a negative number 1/2 of your width*/
-    border: 1px solid #ccc;
-    background-color: #D7F7F4;
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/    
     border-radius: 25px;
-    padding: 20px;
+    padding: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 p {
-  font-family: 'Avro';
+  font-family: 'Play', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 span {
-  padding-left: 23em;
+  padding-left: 15em;
 }
 
 
