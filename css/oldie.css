@@ -1,0 +1,51 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    background: url("../images/beach.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+div {
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/    
+    border-radius: 25px;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+  font-family: 'Play', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+span {
+  padding-left: 15em;
+}
+
+
+
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+}
